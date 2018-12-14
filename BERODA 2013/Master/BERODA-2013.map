@@ -1,0 +1,54 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+data6                                                             00E0h        2
+data7                                                             00E2h        2
+data8                                                             00E4h        2
+rata2                                                             00E6h        2
+rata2atas1                                                        00E8h        2
+rata2atas2                                                        00EAh        2
+rata2bawah1                                                       00ECh        2
+rata2bawah2                                                       00EEh        2
+jumlah                                                            00F0h        2
+put_ka                                                            00F2h        2
+put_ki                                                            00F4h        2
+suhu_sekarang                                                     00F6h        1
+sekarang                                                          00F7h        1
+x                                                                 00F8h        1
+rotary1                                                           00F9h        1
+rotary2                                                           00FAh        1
+pwm1                                                              00FBh        1
+pwm2                                                              00FCh        1
+xdata                                                             00FDh       30
+f                                                                 011Bh        2
+a                                                                 011Dh        2
+rx_buffer                                                         011Fh        4
+rx_wr_index                                                       0123h        1
+rx_rd_index                                                       0124h        1
+rx_counter                                                        0125h        1
+us1                                                               0126h        1
+us2                                                               0127h        1
+us3                                                               0128h        1
+us4                                                               0129h        1
+_base_y                                                           012Ah        4
+_lcd_x                                                            012Eh        1
+_lcd_y                                                            012Fh        1
+_lcd_maxx                                                         0130h        1
+_seed                                                             0131h        4
+p                                                                 0135h        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+data1                                                             R4,R5        2
+data2                                                             R6,R7        2
+data3                                                             R8,R9        2
+data4                                                             R10,R11      2
+data5                                                             R12,R13      2
+flag1                                                             R2.0      1bit
+flag2                                                             R2.1      1bit
+rx_buffer_overflow                                                R2.2      1bit
